@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <audio id="wrong-effect" src="wrong-effect.mp3" preload="auto"></audio>
+    <h1>Simon Game</h1>
+    <h2>Highest Score: 0</h2>
+    <h3>Press any key (except non-printables) to start the game</h3>
+    <!-- because keypress donot work on non-pintables -->
+    <div class="container">
+        <div class="line-1">
+            <div type='button' class="box red" id="red">1</div>
+            <div type='button' class="box yellow" id="yellow">2</div>
+        </div>
+        <div class="line-2">
+            <div type='button' class="box green" id="green">3</div>
+            <div type='button' class="box blue" id="blue">4</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
