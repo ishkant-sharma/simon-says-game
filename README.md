@@ -38,6 +38,3 @@ This project is a web-based implementation of the Simon Says memory game, built 
 - Implement a timer for each round to add more challenge.
 - Add more color options or patterns to diversify gameplay.
 - Design a mobile-friendly interface for touch interactions.
-
-## License
-This project is open-source and available under the MIT License.
